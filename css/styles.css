@@ -1109,9 +1109,7 @@ button {
 
 .date-day {
 
-    font-family:
-        'Cormorant Garamond',
-        serif;
+    font-family:'Petit Formal Script';
 
     font-size:
         74px;
@@ -1149,7 +1147,7 @@ button {
 .date-info span {
 
     font-size:
-        11px;
+        14px;
 
     letter-spacing:
         4px;
@@ -1163,7 +1161,7 @@ button {
         5px;
 
     font-size:
-        12px;
+        14px;
 
     font-weight:
         400;
@@ -1221,7 +1219,7 @@ button {
 .countdown-item strong {
 
     font-family:
-        'Cormorant Garamond',
+        'Petit Formal Script',
         serif;
 
     font-size:
@@ -2831,6 +2829,18 @@ footer {
 
 
 /* =========================================================
+   RESPONSIVE MEDIO
+========================================================= */
+@media (min-width: 901px) and (max-width:1919px) {
+
+	.scroll-indicator{
+		opacity:0;
+	}
+
+}
+
+
+/* =========================================================
    RESPONSIVE TABLET
 ========================================================= */
 
@@ -3085,8 +3095,10 @@ footer {
 
     .date-day {
 
+		font-family:'Petit Formal Script';
         font-size:
             62px;
+			
 
     }
 
@@ -3109,6 +3121,10 @@ footer {
 
     .countdown-item strong {
 
+		font-family:
+        'Petit Formal Script',
+        serif;
+		
         font-size:
             25px;
 
@@ -3278,6 +3294,10 @@ footer {
 
     .countdown-item strong {
 
+		 font-family:
+        'Petit Formal Script',
+        serif;
+		
         font-size:
             21px;
 

@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#34272d">
+
+    <meta name="description"
+          content="Invitación al bautizo de Luna">
+
+    <title>El Bautizo de Luna</title>
+
+
+    <!-- =====================================================
+         FUENTES
+    ====================================================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600&family=Parisienne&display=swap"
+          rel="stylesheet">
+
+
+    <!-- =====================================================
+         ICONOS
+    ====================================================== -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <!-- =====================================================
+         CSS
+    ====================================================== -->
+
+    <link rel="stylesheet"
+          href="css/styles.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         PARTICULAS
+    ====================================================== -->
+
+    <div id="particles"></div>
+
+
+    <!-- =====================================================
+         BARRA DE PROGRESO
+    ====================================================== -->
+
+    <div class="scroll-progress">
+        <span id="scrollProgress"></span>
+    </div>
+
+
+    <!-- =====================================================
+         CURSOR DECORATIVO
+    ====================================================== -->
+
+    <div class="cursor-glow"></div>
+
+
+    <!-- =====================================================
+         NAVEGACIÓN
+    ====================================================== -->
+
+    <header class="navbar" id="navbar">
+
+        <a href="#inicio" class="brand">
+
+            <span class="brand-moon">
+                ☾
+            </span>
+
+            <span>
+                Luna
+            </span>
+
+        </a>
+
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Abrir menú">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+
+        <nav class="navigation" id="navigation">
+
+            <a href="#inicio" class="nav-link active">
+                Inicio
+            </a>
+
+            <a href="#familia" class="nav-link">
+                Familia
+            </a>
+
+            <a href="#lugares" class="nav-link">
+                Lugares
+            </a>
+
+            <a href="#confirmacion" class="nav-link">
+                Confirmación
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         SECCIÓN 1
+         PORTADA
+    ====================================================== -->
+
+    <section
+        class="hero section"
+        id="inicio">
+
+
+        <!-- Fondo -->
+
+        <div class="hero-background">
+
+            <div class="hero-cloud cloud-one"></div>
+            <div class="hero-cloud cloud-two"></div>
+
+        </div>
+
+
+        <!-- Luna -->
+
+        <div class="hero-moon parallax"
+             data-speed="0.12">
+
+            <div class="moon-body">
+
+                <div class="moon-shadow"></div>
+
+            </div>
+
+            <div class="moon-glow"></div>
+
+        </div>
+
+
+        <!-- Flores -->
+
+        <div class="hero-flower flower-left">
+            ✿
+        </div>
+
+        <div class="hero-flower flower-right">
+            ✿
+        </div>
+
+
+        <!-- Contenido -->
+
+        <div class="hero-content reveal">
+
+            <span class="eyebrow">
+                CON MUCHA ALEGRÍA
+            </span>
+
+
+            <h1>
+
+                El Bautizo de
+
+                <span class="name">
+                    Luna
+                </span>
+
+            </h1>
+
+
+            <div class="ornament">
+
+                <span></span>
+
+                <i class="fa-solid fa-star"></i>
+
+                <span></span>
+
+            </div>
+
+
+            <p class="hero-description">
+
+                Queremos compartir contigo
+                un día muy especial en la vida
+                de nuestra pequeña.
+
+            </p>
+
+
+            <!-- Fecha -->
+
+            <div class="event-date">
+
+                <div class="date-day">
+                    24
+                </div>
+
+                <div class="date-info">
+
+                    <span>
+                        OCTUBRE
+                    </span>
+
+                    <strong>
+                        2026
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- Contador -->
+
+            <div class="countdown"
+                 id="countdown">
+
+
+                <div class="countdown-item">
+
+                    <strong id="days">
+                        00
+                    </strong>
+
+                    <span>
+                        Días
+                    </span>
+
+                </div>
+
+
+                <div class="countdown-separator">
+                    :
+                </div>
+
+
+                <div class="countdown-item">
+
+                    <strong id="hours">
+                        00
+                    </strong>
+
+                    <span>
+                        Horas
+                    </span>
+
+                </div>
+
+
+                <div class="countdown-separator">
+                    :
+                </div>
+
+
+                <div class="countdown-item">
+
+                    <strong id="minutes">
+                        00
+                    </strong>
+
+                    <span>
+                        Minutos
+                    </span>
+
+                </div>
+
+
+                <div class="countdown-separator">
+                    :
+                </div>
+
+
+                <div class="countdown-item">
+
+                    <strong id="seconds">
+                        00
+                    </strong>
+
+                    <span>
+                        Segundos
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Botón -->
+
+            <a href="#familia"
+               class="hero-button">
+
+                <span>
+                    Descubre la invitación
+                </span>
+
+                <i class="fa-solid fa-chevron-down"></i>
+
+            </a>
+
+        </div>
+
+
+        <!-- Scroll -->
+
+        <div class="scroll-indicator">
+
+            <span>
+                SCROLL
+            </span>
+
+            <div class="scroll-line"></div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SECCIÓN 2
+         FAMILIA
+    ====================================================== -->
+
+    <section
+        class="family section"
+        id="familia">
+
+
+        <div class="decorative-flower flower-family-left">
+            ❀
+        </div>
+
+        <div class="decorative-flower flower-family-right">
+            ❀
+        </div>
+
+
+        <div class="container">
+
+
+            <!-- Encabezado -->
+
+            <div class="section-heading reveal">
+
+                <span class="eyebrow">
+                    CON AMOR
+                </span>
+
+                <h2>
+                    Nuestra familia
+                </h2>
+
+                <div class="ornament">
+
+                    <span></span>
+
+                    <i class="fa-solid fa-star"></i>
+
+                    <span></span>
+
+                </div>
+
+                <p>
+                    Nos llena de alegría poder compartir
+                    este momento tan especial contigo.
+                </p>
+
+            </div>
+
+
+            <!-- Tarjetas -->
+
+            <div class="family-grid">
+
+
+                <!-- PADRES -->
+
+                <article
+                    class="glass-card person-card reveal">
+
+
+                    <div class="card-decoration">
+                        ✦
+                    </div>
+
+
+                    <div class="person-icon">
+
+                        <i class="fa-solid fa-heart"></i>
+
+                    </div>
+
+
+                    <span class="card-label">
+                        PADRES
+                    </span>
+
+
+                    <h3>
+                        Mamá & Papá
+                    </h3>
+
+
+                    <div class="names">
+
+                        <span>
+                            María Fernanda
+                        </span>
+
+                        <small>
+                            &
+                        </small>
+
+                        <span>
+                            Juan Carlos
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-bottom">
+                        ✧
+                    </div>
+
+                </article>
+
+
+
+                <!-- PADRINOS -->
+
+                <article
+                    class="glass-card person-card reveal">
+
+
+                    <div class="card-decoration">
+                        ✦
+                    </div>
+
+
+                    <div class="person-icon">
+
+                        <i class="fa-solid fa-star"></i>
+
+                    </div>
+
+
+                    <span class="card-label">
+                        PADRINOS
+                    </span>
+
+
+                    <h3>
+                        Nuestros padrinos
+                    </h3>
+
+
+                    <div class="names">
+
+                        <span>
+                            Andrea
+                        </span>
+
+                        <small>
+                            &
+                        </small>
+
+                        <span>
+                            Ricardo
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-bottom">
+                        ✧
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+            <!-- Frase -->
+
+            <div class="family-quote reveal">
+
+                <i class="fa-solid fa-quote-left"></i>
+
+                <p>
+                    "Un niño llena un espacio en tu corazón
+                    que nunca supiste que estaba vacío."
+                </p>
+
+                <span class="quote-line"></span>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SECCIÓN 3
+         LUGARES
+    ====================================================== -->
+
+    <section
+        class="places section"
+        id="lugares">
+
+
+        <div class="places-background"></div>
+
+
+        <div class="container">
+
+
+            <div class="section-heading light reveal">
+
+                <span class="eyebrow">
+                    ACOMPÁÑANOS
+                </span>
+
+                <h2>
+                    Ceremonia & Celebración
+                </h2>
+
+                <div class="ornament">
+
+                    <span></span>
+
+                    <i class="fa-solid fa-star"></i>
+
+                    <span></span>
+
+                </div>
+
+                <p>
+                    Estos son los lugares donde
+                    compartiremos este día tan especial.
+                </p>
+
+            </div>
+
+
+            <!-- Tarjetas -->
+
+            <div class="places-grid">
+
+
+                <!-- IGLESIA -->
+
+                <article
+                    class="place-card glass-card reveal">
+
+
+                    <div class="place-photo church-photo">
+
+                        <div class="photo-overlay">
+
+                            <div class="place-icon">
+                                <i class="fa-solid fa-church"></i>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="place-information">
+
+                        <span class="place-number">
+                            01
+                        </span>
+
+
+                        <h3>
+                            La Ceremonia
+                        </h3>
+
+
+                        <h4>
+                            Parroquia de Nuestra Señora
+                        </h4>
+
+
+                        <div class="place-detail">
+
+                            <i class="fa-solid fa-location-dot"></i>
+
+                            <span>
+                                Av. Ejemplo #123<br>
+                                Guadalajara, Jalisco
+                            </span>
+
+                        </div>
+
+
+                        <div class="place-detail">
+
+                            <i class="fa-regular fa-clock"></i>
+
+                            <span>
+                                12:00 PM
+                            </span>
+
+                        </div>
+
+
+                        <!--
+                            SUSTITUIR ESTA URL
+                            POR LA UBICACIÓN REAL
+                        -->
+
+                        <a
+                            href="https://www.google.com/maps/search/?api=1&query=Parroquia+de+Nuestra+Señora+Guadalajara"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="map-button">
+
+                            <span>
+                                Ver ubicación
+                            </span>
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- FIESTA -->
+
+                <article
+                    class="place-card glass-card reveal">
+
+
+                    <div class="place-photo party-photo">
+
+                        <div class="photo-overlay">
+
+                            <div class="place-icon">
+                                <i class="fa-solid fa-champagne-glasses"></i>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="place-information">
+
+                        <span class="place-number">
+                            02
+                        </span>
+
+
+                        <h3>
+                            La Celebración
+                        </h3>
+
+
+                        <h4>
+                            Salón Los Jardines
+                        </h4>
+
+
+                        <div class="place-detail">
+
+                            <i class="fa-solid fa-location-dot"></i>
+
+                            <span>
+                                Calle Ejemplo #456<br>
+                                Guadalajara, Jalisco
+                            </span>
+
+                        </div>
+
+
+                        <div class="place-detail">
+
+                            <i class="fa-regular fa-clock"></i>
+
+                            <span>
+                                2:00 PM
+                            </span>
+
+                        </div>
+
+
+                        <!--
+                            SUSTITUIR ESTA URL
+                            POR LA UBICACIÓN REAL
+                        -->
+
+                        <a
+                            href="https://www.google.com/maps/search/?api=1&query=Salon+Los+Jardines+Guadalajara"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="map-button">
+
+                            <span>
+                                Ver ubicación
+                            </span>
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SECCIÓN 4
+         CONFIRMACIÓN
+    ====================================================== -->
+
+    <section
+        class="confirmation section"
+        id="confirmacion">
+
+
+        <div class="confirmation-background">
+
+
+            <div class="confirmation-cloud cloud-one"></div>
+
+            <div class="confirmation-cloud cloud-two"></div>
+
+
+            <div class="confirmation-moon">
+
+                <div class="moon-body">
+
+                    <div class="moon-shadow"></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="confirmation-star star-one">
+                ✦
+            </div>
+
+            <div class="confirmation-star star-two">
+                ✧
+            </div>
+
+            <div class="confirmation-star star-three">
+                ★
+            </div>
+
+
+        </div>
+
+
+        <div class="container">
+
+
+            <div
+                class="confirmation-content reveal">
+
+
+                <div class="confirmation-icon">
+
+                    <i class="fa-regular fa-envelope"></i>
+
+                </div>
+
+
+                <span class="eyebrow">
+                    TU PRESENCIA ES NUESTRO REGALO
+                </span>
+
+
+                <h2>
+                    ¿Nos acompañas?
+                </h2>
+
+
+                <div class="ornament">
+
+                    <span></span>
+
+                    <i class="fa-solid fa-star"></i>
+
+                    <span></span>
+
+                </div>
+
+
+                <p class="confirmation-text">
+
+                    Será un día lleno de amor,
+                    alegría y momentos que
+                    recordaremos siempre.
+
+                </p>
+
+
+                <p class="confirmation-text">
+
+                    Por favor confirma tu asistencia
+                    para ayudarnos a preparar todo
+                    con mucho cariño.
+
+                </p>
+
+
+                <!--
+                    SUSTITUIR ESTA URL
+                    POR TU GOOGLE FORMS
+                -->
+
+                <a
+                    href="https://docs.google.com/forms/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="confirmation-button">
+
+
+                    <span>
+                        Confirmar asistencia
+                    </span>
+
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+
+                <div class="final-message">
+
+                    <span>
+                        Con cariño,
+                    </span>
+
+                    <strong>
+                        La familia de Luna
+                    </strong>
+
+                    <div>
+                        ♥
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <div class="footer-moon">
+            ☾
+        </div>
+
+        <p>
+            Con amor para Luna
+        </p>
+
+        <span>
+            ✦
+        </span>
+
+        <p>
+            2026
+        </p>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

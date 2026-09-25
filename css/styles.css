@@ -1080,10 +1080,10 @@ button {
 
     color:
         var(--brown-light);
-
+/*
     font-size:
         14px;
-
+*/
     line-height:
         1.9;
 
@@ -1098,7 +1098,7 @@ button {
 }
 
 .inicial{
-  width: 24%;
+  width: 10%;
   box-sizing: border-box;
   display: inline-block;
   height: 40px;
@@ -1112,7 +1112,7 @@ button {
   }
 
 .parrafo{
-  width: 70%;
+  width: 80%;
   box-sizing: border-box;
   display: inline-block;
   height: 40px;
@@ -3119,8 +3119,8 @@ footer {
 
     .hero-description {
 
-        font-size:
-            13px;
+        /*font-size:
+            13px;*/
 
     }
 

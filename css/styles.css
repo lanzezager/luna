@@ -594,6 +594,8 @@ button {
    HERO
 ========================================================= */
 
+
+
 .hero {
 
     display:
@@ -997,6 +999,8 @@ button {
     text-shadow:
         0 5px 20px
         rgba(169,109,118,.15);
+		
+		
 
 }
 
@@ -1085,6 +1089,39 @@ button {
 
 }
 
+/* =========================================================
+   ACROSTICO
+========================================================= */
+
+.acrostico{
+	box-sizing: border-box;
+}
+
+.inicial{
+  width: 24%;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 40px;
+  text-align: right;
+  vertical-align: top;
+  font-family: 'Parisienne';
+  font-size: 1.3em;  
+  font-weight: bold;
+  color: #a96d76;
+  margin-right: 10px;
+  }
+
+.parrafo{
+  width: 70%;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 40px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8em;
+  color: #725d62;
+}
+
 
 /* =========================================================
    FECHA
@@ -1164,13 +1201,13 @@ button {
         14px;
 
     font-weight:
-        400;
+        500;
 
     letter-spacing:
         3px;
 
-    color:
-        var(--gold);
+    color: #a96d76;
+        
 
 }
 
@@ -1822,6 +1859,8 @@ button {
 
     font-weight:
         400;
+		
+	color:#a96d76;
 
 }
 
@@ -2790,7 +2829,7 @@ footer {
         translateY(60px);
 
     transition:
-        opacity 1s ease,
+        opacity 3s ease,
         transform 1s
         cubic-bezier(.22,.61,.36,1);
 
@@ -2846,6 +2885,7 @@ footer {
 
 @media (max-width: 900px) {
 
+	
 
     .navigation {
 
@@ -3251,6 +3291,9 @@ footer {
 
 @media (max-width: 420px) {
 
+.inicial{
+		margin-bottom: 15px;
+	}
 
     .brand {
 
